@@ -16,8 +16,6 @@ dice2=Math.floor(Math.random()*7+1);
 let isWinningDouble // your code
 if (isWinningDouble=true){
   dice1=dice2 && dice1 >=3
-} else {
-  alert('Выигрышный дубль!')
 }
 
 /*
