@@ -8,8 +8,17 @@
 */
 
 let dice1 // your code
+dice1=Math.floor(Math.random()*7);
+
 let dice2 // your code
+dice2=Math.floor(Math.random()*7);
+
 let isWinningDouble // your code
+if (isWinningDouble=true){
+  dice1=dice2 && dice1 >=3
+} else {
+  alert('Выигрышный дубль!')
+}
 
 /*
 console.log('Первый бросок: ' + dice1)
@@ -20,3 +29,4 @@ if (isWinningDouble) {
   console.log('Не выигрышный дубль.')
 }
 */
+console.log(isWinningDouble)
