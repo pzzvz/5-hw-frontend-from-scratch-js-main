@@ -13,7 +13,7 @@ let dice2 // your code
 let dice2 = Math.floor(Math.random() * 6) + 1;
 
 let isWinningDouble // your code
-let isWinningDouble = (dice1 === dice2) && (dice1 >= 3);
+let isWinningDouble = (dice1 === dice2) && (dice1 >= 3) && (dice2 >= 3);
 
 console.log('Первый бросок: ' + dice1)
 console.log('Второй бросок: ' + dice2)
