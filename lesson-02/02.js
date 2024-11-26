@@ -18,7 +18,6 @@ if (isWinningDouble=true){
   dice1=dice2 && dice1 >=3
 }
 
-/*
 console.log('Первый бросок: ' + dice1)
 console.log('Второй бросок: ' + dice2)
 if (isWinningDouble) {
@@ -26,5 +25,3 @@ if (isWinningDouble) {
 } else {
   console.log('Не выигрышный дубль.')
 }
-*/
-console.log(isWinningDouble)
