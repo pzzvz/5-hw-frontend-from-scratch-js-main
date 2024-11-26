@@ -15,7 +15,7 @@ dice2=Math.floor(Math.random()*6)+1;
 
 let isWinningDouble // your code
 if (isWinningDouble=true){
-  dice1=dice2 && dice1 >=3
+  dice1=dice2 && dice1 >=3 && dice2>=3
 }
 
 console.log('Первый бросок: ' + dice1)
