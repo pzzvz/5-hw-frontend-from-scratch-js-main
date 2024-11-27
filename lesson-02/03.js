@@ -7,15 +7,15 @@
 const score = 45 // тестовое значение, можно изменять
 // your code
 if (score >= 90 && score <= 100) {
-    grade = A;
+    grade = "A";
 } else if (score >= 80 && score < 90) {
-    grade = B;
+    grade = "B";
 } else if (score >= 70 && score < 80) {
-    grade = C;
+    grade = "C";
 } else if (score >= 50 && score < 70) {
-    grade = D;
+    grade = "D";
 } else if (score >= 0 && score < 50) {
-    grade = F;
+    grade = "F";
 }else {
     grade= "wrong input data"
 }
