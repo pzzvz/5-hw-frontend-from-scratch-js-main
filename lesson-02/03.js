@@ -4,20 +4,26 @@
  * Результат сохраните в переменной grade.
  */
 
-const score = 45 // тестовое значение, можно изменять
+let score = 45 // тестовое значение, можно изменять
 // your code
-if (score >= 90 && score <= 100) {
-    grade = "A";
-} else if (score >= 80 && score < 90) {
-    grade = "B";
-} else if (score >= 70 && score < 80) {
-    grade = "C";
-} else if (score >= 50 && score < 70) {
-    grade = "D";
-} else if (score >= 0 && score < 50) {
-    grade = "F";
-}else {
-    grade= "wrong input data"
+switch (true) {
+    case (score >= 90 && score <= 100):
+        grade = 'A'; 
+        break; 
+    case (score >= 80 && score < 90):
+        grade = 'B';
+        break; 
+    case (score >= 70 && score < 80):
+        grade = 'C';
+        break;
+    case (score >= 50 && score < 70):
+        grade = 'D';
+        break;
+    case (score >= 0 && score < 50):
+        grade = 'F';
+        break;
+    default:
+        grade = 'Wrong input data';
 }
 
 console.log (grade)
