@@ -6,24 +6,10 @@
 
 const score = 45 // тестовое значение, можно изменять
 // your code
-switch (true) {
-    case (score >= 90 && score <= 100):
-        grade = 'A'; 
-        break; 
-    case (score >= 80 && score < 90):
-        grade = 'B';
-        break; 
-    case (score >= 70 && score < 80):
-        grade = 'C';
-        break;
-    case (score >= 50 && score < 70):
-        grade = 'D';
-        break;
-    case (score >= 0 && score < 50):
-        grade = 'F';
-        break;
-    default:
-        grade = 'Wrong input data';
-}
+grade = score < 50 ? 'F' :
+        score < 70 ? 'D' :
+        score < 80 ? 'C' :
+        score < 90 ? 'B' :
+        'A';
 
 console.log (grade)
