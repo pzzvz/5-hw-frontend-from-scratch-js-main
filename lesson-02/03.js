@@ -23,7 +23,7 @@ function getGrade(score) {
           return grade = "C";
         } else if (score >= 50) {
           return grade = "D";
-        } else {
+        } else {  (score >= 0) {
           return grade = "F";
         }
       }
