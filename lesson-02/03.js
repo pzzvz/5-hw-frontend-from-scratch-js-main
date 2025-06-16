@@ -4,12 +4,23 @@
  * Результат сохраните в переменной grade.
  */
 
-const score = 45 // тестовое значение, можно изменять
+// тестовое значение, можно изменять
 // your code
-grade = score < 50 ? 'F' :
-        score < 70 ? 'D' :
-        score < 80 ? 'C' :
-        score < 90 ? 'B' :
-        'A';
+function getGrade(score) {
+    let grade;
 
-console.log (grade)
+    if (score >= 90 && score <= 100) {
+        grade = 'A';
+    } else if (score >= 80) {
+        grade = 'B';
+    } else if (score >= 70) {
+        grade = 'C';
+    } else if (score >= 50) {
+        grade = 'D';
+    } else if (score >= 0) {
+        grade = 'F';
+    } else {
+        grade = 'Wrong value';
+    }
+
+    return grade
