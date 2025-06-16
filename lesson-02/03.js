@@ -6,23 +6,26 @@
 
 // тестовое значение, можно изменять
 // your code
-let score = 45;
-function getGrade(score) {
-    let grade;
-
-    if (score >= 90 && score <= 100) {
-        grade = 'A';
+function classifyScores(scores) {
+  const classifiedScores = []
+ 
+  for (let i = 0; i < scores.length; i++) {
+    let grade // Переменная для хранения оценки
+    const score = scores[i]
+ 
+    if (score >= 90) {
+      grade = 'A'
     } else if (score >= 80) {
-        grade = 'B';
+      grade = 'B'
     } else if (score >= 70) {
-        grade = 'C';
+      grade = 'C'
     } else if (score >= 50) {
-        grade = 'D';
-    } else if (score >= 0) {
-        grade = 'F';
+      grade = 'D'
     } else {
-        grade = 'Wrong value';
+      grade = 'F'
     }
-
-    return grade
-    console.log(grade)
+ 
+    classifiedScores.push(grade)
+  }
+ 
+    return classifiedScores
