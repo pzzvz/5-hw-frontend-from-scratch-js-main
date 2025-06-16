@@ -6,6 +6,7 @@
 
 // тестовое значение, можно изменять
 // your code
+let score = 45;
 function getGrade(score) {
     let grade;
 
@@ -24,3 +25,4 @@ function getGrade(score) {
     }
 
     return grade
+    console.log(grade)
