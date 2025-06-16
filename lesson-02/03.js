@@ -19,3 +19,6 @@ function getGrade(score) {
     return "F";
   }
 }
+      console.log(getGrade(45))
+      console.log(getGrade(55))
+      console.log(getGrade(95))
