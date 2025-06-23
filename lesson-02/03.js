@@ -15,6 +15,7 @@
 // тестовое значение, можно изменять
 // your code
 function getGrade(score) {
+        let grade
         if (score >= 90) {
           return grade ="A";
         } else if (score >= 80) {
