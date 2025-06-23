@@ -14,20 +14,16 @@
 
 // тестовое значение, можно изменять
 // your code
-function getGrade(score) {
         let grade
+        const score = 70
         if (score >= 90) {
-          return grade ="A";
+          grade ="A";
         } else if (score >= 80) {
-          return grade = "B";
+           grade = "B";
         } else if (score >= 70) {
-          return grade = "C";
+           grade = "C";
         } else if (score >= 50) {
-          return grade = "D";
+           grade = "D";
         } else if  (score >= 0) {
-          return grade = "F";
+           grade = "F";
         }
-      }
-            console.log(getGrade(45))
-            console.log(getGrade(55))
-            console.log(getGrade(95))
