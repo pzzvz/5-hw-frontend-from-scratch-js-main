@@ -1,6 +1,12 @@
 // Разработайте функцию isEven, которая определяет, чётное ли число.
 // Функция должна возвращать true, если число чётное, и false — в противном случае
 
-function isEven() {
-    Math.abs(number) % 2 === 0;
+function isEven(number) {
+    if (number === 0) {
+        return true;
+    } else if (number === 1) {
+        return false;
+    }
+    return isEven(number - 2);
 }
+
