@@ -2,9 +2,10 @@
 // Функция должна возвращать true, если число чётное, и false — в противном случае
 
 function isEven(number) {
-    if (number === 0) {
-        return true;
-    } else if (number !==0) {
-        return false;
-    }
+    // if (number === 0) {
+    //     return true;
+    // } else if (number !==0) {
+    //     return false;
+    // }
+    return number%2===0 ? true : false
 }
